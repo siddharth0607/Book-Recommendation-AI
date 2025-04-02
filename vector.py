@@ -5,7 +5,7 @@ import os
 import pandas as pd
 
 #Load dataset
-df = pd.read_csv("data/goodreads_data.csv")
+df = pd.read_csv("./data/goodreads_data.csv")
 
 # Use embeddings for retrieval
 embeddings = OllamaEmbeddings(model="mxbai-embed-large")
